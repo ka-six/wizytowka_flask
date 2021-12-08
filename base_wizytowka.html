@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+    <head>
+        {% block head %}
+        <meta charset="utf-8">
+        <title>Wizytówka</title>
+        <link rel="stylesheet" href="moja_wizytowka_style.css">
+        {% endblock %}
+    </head>
+    <body>
+        <h1>Witaj na mojej stronie</h1>
+        
+        <div style="text-align: center"><img src="https://i.postimg.cc/507TQwZf/pexels-katarzyna-modrzejewska-1314550.jpg" alt="King Cat"></div>
+        
+        <div id="content">{% block content %}{% endblock %}
+    </body>
+</html>
+

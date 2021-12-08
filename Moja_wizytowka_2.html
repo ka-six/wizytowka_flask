@@ -1,0 +1,18 @@
+{% extends "base_wizytowka.html" %}
+{% block content %}
+<h2>Kontakt</h2>
+    <ul>
+        <li>E-mail: k.nowak@gmail.com</li>
+        <li>Telefon: +48 999-999-999</li>
+    </ul>
+
+    <form action="/action_page.php" method="get">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <textarea cols="50" rows="4">Tu wpisz swoją wiadomość...</textarea>
+{% endblock %}
