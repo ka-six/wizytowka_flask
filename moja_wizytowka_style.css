@@ -1,0 +1,20 @@
+h1 {
+    color: #58B19F;
+    font-weight:bold;
+    font-size: 40px;
+    text-align: center;
+}
+h2 {
+    color: #2C3A47;
+    font-size: 20px;
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+ul {
+    text-align: center;
+}
+body, html {
+    background-color: #9AECDB;
+}
